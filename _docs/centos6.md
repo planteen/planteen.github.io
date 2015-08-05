@@ -22,4 +22,3 @@ sudo make install
 Add the following lines to your .bashrc:
     alias vim="/opt/vim74/bin/vim"
     alias gvim="/opt/vim74/bin/gvim"
-

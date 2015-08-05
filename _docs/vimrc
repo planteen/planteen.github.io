@@ -1,0 +1,34 @@
+"Turn on syntax highlighting
+syntax on
+
+"Indentation settings
+filetype plugin indent on
+au FileType c set expandtab si sw=4 ts=4
+au FileType h set expandtab si sw=4 ts=4
+au FileType ruby set expandtab si sw=2 ts=2
+
+"Recognize .md files as markdown
+au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
+
+"Automatically detect a modeline in the first 20 lines to override settings
+"above
+set modeline
+set modelines=20
+
+"Colors-on-black scheme
+colors koehler
+
+"Turn on line numbers
+set number
+
+"Make backspace work over line breaks, indent, and where insert started
+set backspace=indent,eol,start
+
+"Show a line length marker at 80 columns
+set colorcolumn=80
+
+"Enable spell checking
+set spell
+
+"Highlight search matches
+set hlsearch
