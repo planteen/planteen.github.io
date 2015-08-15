@@ -1,6 +1,6 @@
 <background>
   <starttime>
-    <year>2009</year>
+    <year>2015</year>
     <month>08</month>
     <day>04</day>
     <hour>00</hour>
@@ -9,84 +9,165 @@
   </starttime>
 <!-- This animation will start at midnight. -->
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/1.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/01.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/1.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/2.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/01.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/02.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/2.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/02.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/2.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/3.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/02.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/03.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/3.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/03.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/3.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/4.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/03.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/04.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/4.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/04.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/4.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/5.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/04.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/05.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/5.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/05.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/5.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/6.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/05.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/06.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/6.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/06.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/6.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/7.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/06.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/07.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/7.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/07.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/7.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/8.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/07.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/08.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/8.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/08.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/8.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/9.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/08.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/09.jpg</to>
   </transition>
   <static>
-    <duration>1795.0</duration>
-    <file>/home/planteen/Pictures/backgrounds/caves/9.jpg</file>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/09.jpg</file>
   </static>
   <transition>
     <duration>5.0</duration>
-    <from>/home/planteen/Pictures/backgrounds/caves/9.jpg</from>
-    <to>/home/planteen/Pictures/backgrounds/caves/1.jpg</to>
+    <from>/home/planteen/Pictures/backgrounds/caves/09.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/10.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/10.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/10.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/11.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/11.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/11.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/12.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/12.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/12.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/13.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/13.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/13.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/14.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/14.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/14.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/15.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/15.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/15.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/16.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/16.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/16.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/17.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/17.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/17.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/18.jpg</to>
+  </transition>
+  <static>
+    <duration>300.0</duration>
+    <file>/home/planteen/Pictures/backgrounds/caves/18.jpg</file>
+  </static>
+  <transition>
+    <duration>5.0</duration>
+    <from>/home/planteen/Pictures/backgrounds/caves/18.jpg</from>
+    <to>/home/planteen/Pictures/backgrounds/caves/01.jpg</to>
   </transition>
 </background>
