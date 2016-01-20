@@ -5,6 +5,7 @@ syntax on
 filetype plugin indent on
 au FileType c set expandtab si sw=4 ts=4
 au FileType h set expandtab si sw=4 ts=4
+au FileType cpp set expandtab si sw=4 ts=4
 au FileType ruby set expandtab si sw=2 ts=2
 
 "Recognize .md files as markdown

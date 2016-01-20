@@ -50,4 +50,8 @@ Merge branch into trunk
     svn co http://server/repo/svn/trunk .
     svn merge --reintegrate http://server/repo/svn/branches/branch
 
+Relocate
+---------------
+Useful if SVN server changes or if forwarding port over SSH.
 
+    svn relocate https://old https://127.0.0.1:8080

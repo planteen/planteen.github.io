@@ -2,13 +2,10 @@
 title: Cody Planteen
 email: planteen@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  This site is primarily for my personal use. I like to view notes without
-  logging in. You may find it useful or interesting if you have a fancy for
-  embedded systems, software engineering, Linux, programming, electronics,
-  spacecraft, caves, Colorado, or the outdoors.
+  This is a dump of my notes to the internet.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://planteen.github.io" # the base hostname & protocol for your site
-github_username:  planteen
+github_username: planteen
 
 # Build settings
 markdown: kramdown
