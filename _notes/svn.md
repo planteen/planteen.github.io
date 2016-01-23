@@ -1,9 +1,12 @@
-Subversion
-==========
-Git may be nicer than Subversion, but in my experience, some teams do not use
-SVN correctly. If everyone on your team is developing using working copies off
-trunk, you are not using SVN to its full potential. And someday you are
-probably going to lose work on a failed update or accidental revert.
+---
+layout: note
+title: svn
+---
+
+While I prefer Git over Subversion, in my experience, many teams only use the
+most simple features of SVN. If everyone on your team is developing using working
+copies off trunk, you are not using SVN to its full potential. And someday you
+may lose important work on a failed update or accidental revert.
 
 Kdiff3
 ------
@@ -52,6 +55,6 @@ Merge branch into trunk
 
 Relocate
 ---------------
-Useful if SVN server changes or if forwarding port over SSH.
+Useful if the SVN server changes or if port forwarding using SSH.
 
     svn relocate https://old https://127.0.0.1:8080

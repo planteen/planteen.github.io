@@ -1,14 +1,14 @@
-Vim Notes
-=========
-"You can use any editor or IDE you want on your machine, but you better learn
-vim for working on shared, remote, or customer systems." - sage advice from a
-co-worked when I was at HP.
+---
+layout: note
+title: vim
+---
 
-This is not a tutorial to learn Vim! It is mostly notes I have collected over
-years for myself.
+"You can use any editor or IDE you want on your machine, but you better learn
+vim for working on shared, remote, or customer systems." - sage advice from an
+old co-worker at HP.
 
 Vimrc
-=====
+-----
 
 My vimrc is mostly for style. I do not want to depend on lots of functionality
 in a vimrc to prevent being crippled when working on systems where I am a
