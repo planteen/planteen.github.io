@@ -21,13 +21,22 @@ the yellow and black tourist trail to Rome. From Rome, we took the red and
 white trail through the Spillway, Omnibus Hall, and to the Pyramid Room. In the
 Pyramid, the rock on the wall looks distinctly like a boot print.
 
+{% include image.html url="/assets/wind_coke/CIMG0704-1024x768.jpg" description="'Bootprint' in Pyramid Room" %}
+
 Immediately following the Pyramid Room is the Frostline, an aptly named area
 containing spectacular frostwork.
+
+{% include image.html url="/assets/wind_coke/CIMG0746-1024x768.jpg" description="Frostwork at the Frostline" %}
 
 From the Frostline, we continued on through Hobson’s Choice, switched to the
 yellow trail, climbed up the Woodpile, went through the Bayberry Candle Room.
 Near the Coke Room, there is fossilized pipe organ coral on the wall!
 
+{% include image.html url="/assets/wind_coke/CIMG0717-1024x768.jpg" description="Fossilized Pipe Organ Coral" %}
+
 We reached the Coke Room, where we left the rescue cache and ate a snack. We
 then looked at the map to find station KY333 and completed a little survey in
 the area.
+
+{% include image.html url="/assets/wind_coke/CIMG0727-1024x768.jpg" description="Boxwork near KY333A" %}
+{% include image.html url="/assets/wind_coke/CIMG0723-1024x768.jpg" description="Dave Sketching" %}

@@ -10,7 +10,11 @@ National Park. We arrived in Crestone in the afternoon of Friday, June 21,
 2013. The town was engulfed in smoke from the raging West Fork Complex fire. We
 felt like we were on Mars due to the bizarre colors in the sky from the smoke.
 
+{% include image.html url="/assets/sandboarding/IMG_1884.jpg" %}
+
 It did lead to one of the most spectacular sunsets I have ever seen.
+
+{% include image.html url="/assets/sandboarding/IMG_1910.jpg" %}
 
 On Saturday, we went to the dunes. The air was conveniently clear of smoke.
 This was my third time sandboarding with a snowboard at the dunes. Here is my
@@ -26,3 +30,6 @@ part.
 4. Bring old bindings. Sand will get everywhere in them and make things gritty.
 5. If you hike to High Dune, there are three opportunities for good runs on the
 way back to the trailhead. The run from the top of High Dune is the longest.
+
+
+{% include image.html url="/assets/sandboarding/sandboarding.jpg" %}

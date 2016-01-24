@@ -2,7 +2,7 @@
 layout: post
 title: Jackal Hut
 date: 2013-06-27
-categories: Colorado, winter
+categories: Colorado
 ---
 
 I spent the weekend of March 1, 2013 at Jackal Hut located between Minturn and
@@ -22,8 +22,12 @@ snow were faceted which seems typical for the 2012-2013 season in Colorado.
 Near the end, the trail became more difficult to find. You want to reach Jackal
 Hut from above by climbing the ridge and then descending.
 
+{% include image.html url="/assets/jackal/hut.jpg" %}
+
 We spent Saturday building a sled run and ramp outside the hut. Great times
 were had by all.
+
+{% include image.html url="/assets/jackal/sled.jpg" %}
 
 The way down on Sunday was much easier, taking an hour and forty-five minutes.
 
@@ -51,7 +55,9 @@ DMS format, WGS84 datum
 
 Track Map
 =========
+{% include image.html url="/assets/jackal/jackal_map_1.png" %}
+{% include image.html url="/assets/jackal/jackal_map_2.png" %}
 
 Track Profile
 =============
-
+{% include image.html url="/assets/jackal/jackal_profile.png" %}

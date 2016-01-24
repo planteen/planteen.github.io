@@ -11,9 +11,11 @@ exploration project. The 2014 Peru caving expedition veterans consisted of me
 (Cody Planteen), Mike Green, and Brian Gindling. Participants new to Peru
 included Jared Habiak, Elliot Stahl, Peter Hartley, and Chris Higgins. We spent
 18 days in July 2014 camped at over 14,000 feet. Even though Peru is near the
-equator and we were there during the “dry” season, the trip was a bit cold! The
+equator and we were there during the "dry" season, the trip was a bit cold! The
 temperature got below freezing most nights. We also had plenty of rain,
 drizzle, sleet, and even a little snow.
+
+{% include image.html url="/assets/peru/camp.jpg" %}
 
 The majority of our time was spent ridgewalking in steep and sometimes
 difficult terrain. One of the highlights discovered on the expedition was Cueva
@@ -21,11 +23,19 @@ del Sismo (Earthquake Cave), a nice formation cave. It was named for all the
 signs of seismic activity, including many broken formations and cracked
 columns.
 
+{% include image.html url="/assets/peru/sismo.jpg" description="Peter Hartley in Cueva del Sismo" %}
+
+{% include image.html url="/assets/peru/sismo2.jpg" description="Cracked column Cueva del Sismo" %}
+
 Another highlight was Grieta de Asfixia, a multi-drop vertical cave nearly
 1,000 feet deep.
 
+{% include image.html url="/assets/peru/grieta.jpg" description="Ropework in Grieta; Mike Green in foreground; Cody Planteen in background; Photo Credit: Chris Higgins" %}
+
 We found and explored dozens of other pits. Most pits were blind, some led to
 passage, and a few had beautiful formations.
+
+{% include image.html url="/assets/peru/amsterdam.jpg" description="Elliot Stahl looks at a Helictite Bush in the Pit of Amsterdam" %}
 
 I love the feeling of being the first person ever to explore and see a cave,
 though it does feel nice to get back to showers, sleeping indoors, and the

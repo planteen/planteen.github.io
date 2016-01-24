@@ -21,64 +21,53 @@ Ctrl+v
 
 Search and replace
 ------------------
-### Case sensitive
-    /pattern
+Case sensitive `/pattern`
 
-### Case insensitive
-    /\cpattern
-    /pAtTeRn\c
+Case insensitive `/\cpattern` `/pAtTeRn\c`
 
-###Next result (forward)
-    n
+Next result (forward) `n`
 
-###Next result (backward)
-    N
+Next result (backward) `N`
 
-###Search for current word
-    *
+Search for current word `*`
 
-###Replace
-    :%s/old/new/g
+Replace `:%s/old/new/g`
 
-###Replace spaces with newlines
-    :%s/ /\r/g
+Replace spaces with newlines `:%s/ /\r/g`
 
 Insert mode
 -----------
-i enters insert mode
+`i` enters insert mode
 
 ###Digraphs
 Digraph is two characters used to enter a single character, such as one not
 found on a standard US keyboard.
 
-Ctrl+k is used to start a digraph.
+`Ctrl+k` is used to start a digraph.
 
 Accent with '
-Ctrl+k a ' gives á
+`Ctrl+k a '` gives `á`
 
 Tilde with ~
-Ctrl+k n ~ gives ñ
+`Ctrl+k n ~` gives `ñ`
 
 Inverted with I
-Ctrl+k ! I gives ¡
-Ctrl+k ? I gives ¿
+`Ctrl+k ! I` gives `¡`;
+`Ctrl+k ? I` gives `¿`
 
 Greek with *
-Ctrl+k a * gives α
-Ctrl+k D * gives Δ
+`Ctrl+k a *` gives `α`;
+`Ctrl+k D *` gives `Δ`
 
 Formatting
 ----------
-###Break long line
-    gqq
+Break long line `gqq`
 
 Other
 -----
-###File explorer
-    :Ex
+File explorer `:Ex`
 
-###Close buffer
-    :bd
+Close buffer `:bd`
 
 Scripts
 =======
