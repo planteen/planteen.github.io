@@ -10,6 +10,7 @@ Useful debugging information can be obtained by enabling the following kernel
 menuconfig options:
 
 Kernel hacking
+  Default message log level
   Magic SysRq key
   Debug Lockups and Hangs
     Detect Hard and Soft Lockups

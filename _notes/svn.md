@@ -51,7 +51,12 @@ Merge branch into trunk
     svn merge --reintegrate http://server/repo/svn/branches/branch
 
 Relocate
----------------
+--------
 Useful if the SVN server changes or if port forwarding using SSH.
 
     svn relocate https://old https://127.0.0.1:8080
+
+Fix accidental deletion
+-----------------------
+Say accidentally deleted trunk at head revision 1235, to fix by going back to 1234:
+    svn cp https://server/repo/svn/trunk@1234 https://server/repo/svn/trunk

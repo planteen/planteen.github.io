@@ -32,3 +32,14 @@ autoreconf -fim
 make
 
 Outputs spi-config and spi-pipe in src
+
+sqlite:
+To create smaller amalgamation, download source and edit Makefile, e.g.:
+OPTS += -DSQLITE_OMIT_TRIGGER=1
+OPTS += -DSQLITE_OMIT_WAL=1
+OPTS += -DSQLITE_OMIT_AUTOVACUUM=1
+OPTS += -DSQLITE_OMIT_UTF16=1
+OPTS += -DSQLITE_OMIT_EXPLAIN=1
+OPTS += -DSQLITE_OMIT_LOAD_EXTENSION=1
+
+Then make sqlite3.c
