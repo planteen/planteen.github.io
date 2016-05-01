@@ -30,6 +30,7 @@ info threads               list threads
 thread apply all where     get backtraces of all threads
 info signals               see signal behavior
 handle SIGINT pass         pass sigint to the program
+list                       view source
 
 
 PROFILING:

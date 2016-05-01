@@ -62,4 +62,23 @@ Userspace I/O (uio) is perfect for interfacing with custom peripherals like FPGA
 
 You should not need to worry about manually issuing cache flush instructions. All uio pages are marked VM_IO. So simply open and mmap() the UIO device to access it from a userspace program.
 
-You do need to worry about memory operations being re-ordered and use memory barriers to ensure correct ordering.
+You do need to worry about memory operations being re-ordered
+
+Caching
+-------
+Amount of free memory in system may decrease to unacceptably low amount due to
+growth of kernel caches. Check amount of free memory with free (available in
+BusyBox).
+
+Writing /proc/sys/vm/drop_caches causes kernel to drop caches, freeing their
+space, but documentation notes that "This file is not a means to control growth
+of various kernel caches..." This is a good way to test the cause of a memory
+problem.
+
+Controlling dentries and inodes:
+/proc/sys/vm/vfs_cache_pressure defaults to 100 and higher values increase the
+reclaim rate.
+
+Controlling page cache size:
+Lots of items in /proc/sys/vm - dirty_background_bytes, dirty_background_ratio,
+dirty_ratio, dirty_expire_centisecs, swappiness.
