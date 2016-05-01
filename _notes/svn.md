@@ -17,6 +17,9 @@ Launch kdiff3 for diff
 ----------------------
     svn --diff-cmd kdiff3 diff file.c
 
+If postponed a merge conflict:
+    kdiff3 -m --auto -o file.c file.c.merge-left file.c.merge-right file.c.working
+
 Color diffs
 -----------
 cdiff is a tool for color diffs on the command line
