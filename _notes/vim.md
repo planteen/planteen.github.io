@@ -63,11 +63,29 @@ Formatting
 ----------
 Break long line `gqq`
 
+Change (delete) in quotes `ci"`
+
+Change (delete) in parenthesis `ci(`
+
+
+
 Other
 -----
 File explorer `:Ex`
 
 Close buffer `:bd`
+
+Move between splits `Ctrl+w Ctrl+w`
+
+Navigate to start/end of parents/braces `%`
+
+Navigate to end of line `$`
+
+Navigate to beginning of like `0`
+
+Navigate to beginning of C block `[{`
+
+Navigate to end of C block `]}`
 
 Scripts
 =======
