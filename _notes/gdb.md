@@ -38,3 +38,8 @@ add -pg as option in CFLAGS and LIBS to Makefile
 On UUT, cleanly exit and will produce file called gmon.out
 On PC, get gmon.out and execute to get a human-readable output:
 arm-xilinx-linux-gnueabi-gprof app gmon.out > prof_output
+
+# Command line arguments
+if want to debug a.out, `gdb a.out`
+`run 1 2 3 4`
+would be like `./a.out 1 2 3 4`
