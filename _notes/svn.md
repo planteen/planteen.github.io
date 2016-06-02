@@ -63,3 +63,9 @@ Fix accidental deletion
 -----------------------
 Say accidentally deleted trunk at head revision 1235, to fix by going back to 1234:
     svn cp https://server/repo/svn/trunk@1234 https://server/repo/svn/trunk
+
+Remove bad commit
+-----------------
+
+    svn merge -c -REV .
+
