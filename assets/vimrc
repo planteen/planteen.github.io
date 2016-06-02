@@ -1,35 +1,64 @@
-"Turn on syntax highlighting
+" turn on syntax highlighting
 syntax on
 
-"Indentation settings
+" indentation settings
 filetype plugin indent on
 au FileType c set expandtab si sw=4 ts=4
 au FileType h set expandtab si sw=4 ts=4
 au FileType cpp set expandtab si sw=4 ts=4
 au FileType ruby set expandtab si sw=2 ts=2
-
-"Recognize .md files as markdown
+" recognize .md files as markdown
 au BufNewFile,BufFilePre,BufRead *.md set filetype=markdown
 
-"Automatically detect a modeline in the first 20 lines to override settings
-"above
+" auto detect a modeline in the first 20 lines to override settings above
 set modeline
 set modelines=20
 
-"Colors-on-black scheme
+" colors-on-black scheme
 colors koehler
 
-"Turn on line numbers
+" turn on line numbers
 set number
 
-"Make backspace work over line breaks, indent, and where insert started
+" make backspace work over line breaks, indent, and where insert started
 set backspace=indent,eol,start
 
-"Show a line length marker at 80 columns
+" show a line length marker at 80 columns
 set colorcolumn=80
 
-"Enable spell checking
+" enable spell checking
 set spell
 
-"Highlight search matches
+" highlight search matches
 set hlsearch
+
+"Ctrl+C, Ctrl+V, Ctrl+X for copy, paste, and cut
+"http://superuser.com/questions/10588/how-to-make-cut-copy-paste-in-gvim-on-ubuntu-work-with-ctrlx-ctrlc-ctrlv
+"Paste only works in Visual and insert mode, so you don't have to worry about
+"the conflict with Ctrl-V and blockwise Visual Mode. This isn't a problem,
+"because Copy and Cut put you into insert mode, so you can immediately paste
+"afterwards. If you try it out you'll find that it feels completely natural.
+vmap <C-c> "+yi
+vmap <C-x> "+c
+vmap <C-v> c<ESC>"+p
+imap <C-v> <C-r><C-o>+
+
+" disable use of arrow keys
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+noremap <Left> <NOP>
+noremap <Right> <NOP>
+
+" disable use of page up and page down
+"noremap <PageUp> <NOP>
+"noremap <PageDown> <NOP>
+
+execute pathogen#infect()
+
+" start NERDTree with Ctrl+N
+map <C-n> :NERDTreeToggle<CR>
+" close vim if the only window left is NERDTree
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
+" start/stop tagbar with F9
+nnoremap <silent> <F9> :TagbarToggle<CR>

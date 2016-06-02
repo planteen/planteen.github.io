@@ -31,7 +31,9 @@ Next result (backward) `N`
 
 Search for current word `*`
 
-Replace `:%s/old/new/g`
+Find/replace file `:%s/old/new/g`
+
+Fine/replace line `:.s/old/new/g`
 
 Replace spaces with newlines `:%s/ /\r/g`
 
@@ -86,6 +88,10 @@ Navigate to beginning of like `0`
 Navigate to beginning of C block `[{`
 
 Navigate to end of C block `]}`
+
+Repeat last : command `@:`
+
+Repeat last normal mode command `.`
 
 Scripts
 =======
