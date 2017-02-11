@@ -21,6 +21,7 @@ installed to disk. The key is to edit the boot parameters (press e) before the
 Linux installer boots and append `i915.enable_execlists=0 acpi_osi=! acpi_osi="Windows 2009"`
 
 Once the system is installed, edit `/etc/default/grub` to permanently fix the kernel boot parameters. Otherwise, every time the kernel is updated, you are going to have to re-edit your grub configuration. On `GRUB_CMDLINE_LINUX`, I deleted `rhgb quiet` as a matter of preference. I then appended `i915.enable_execlists=0 acpi_osi=! acpi_osi=\"Windows 2009\"` (notice that you need to escape the quotes). I also added the following options so Fedora will always boot to the last OS that was selected. This is useful if you are dual booting.
+
 ```
 GRUB_DEFAULT=saved
 GRUB_SAVEDEFAULT=true
@@ -35,6 +36,7 @@ handle this I installed bumblebee. There are good directions on the
 
 The only piece of hardware that doesn't seem to work is the built-in SD card
 reader:
+
 ```
 $ lspci | grep -i alcor
 02:00.0 Unassigned class [ff00]: Alcor Micro Device 6621
