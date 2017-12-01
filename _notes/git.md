@@ -37,3 +37,6 @@ git revert a8802e052821bb985a54684f3d8be0f4decb4557
 
 Adding all modified/new files in status:
 git add .
+
+Reverting a single file:
+git checkout -- file
