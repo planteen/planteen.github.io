@@ -20,6 +20,9 @@ colors koehler
 " turn on line numbers
 set number
 
+" also turn on relative line numbers for "hybrid" mode
+set relativenumber
+
 " make backspace work over line breaks, indent, and where insert started
 set backspace=indent,eol,start
 
@@ -53,12 +56,12 @@ noremap <Right> <NOP>
 "noremap <PageUp> <NOP>
 "noremap <PageDown> <NOP>
 
-execute pathogen#infect()
+"execute pathogen#infect()
 
 " start NERDTree with Ctrl+N
-map <C-n> :NERDTreeToggle<CR>
+"map <C-n> :NERDTreeToggle<CR>
 " close vim if the only window left is NERDTree
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+"autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
 " start/stop tagbar with F9
-nnoremap <silent> <F9> :TagbarToggle<CR>
+"nnoremap <silent> <F9> :TagbarToggle<CR>
