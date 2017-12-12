@@ -20,3 +20,16 @@ cifs/samba
 chmod -R 0755 anonymous/
 chown -R nobody:nobody anonymous/
 chcon -t samba_share_t anonymous/
+
+ssh
+===
+Adding authorized public key:
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+vim ~/.ssh/authorized_keys and add key
+chmod 600 ~/.ssh/authorized_keys
+
+Server:
+sudo apt install openssh-server
+sudo vim /etc/ssh/sshd_config "PasswordAuthentication no" "PermitRootLogin no"
+sudo systemctl reload sshd
