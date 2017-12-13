@@ -33,3 +33,8 @@ Server:
 sudo apt install openssh-server
 sudo vim /etc/ssh/sshd_config "PasswordAuthentication no" "PermitRootLogin no"
 sudo systemctl reload sshd
+
+Serial Port
+===========
+Usually need dialout group to access /dev/ttyX:
+sudo usermod -a -G dialout planteen
