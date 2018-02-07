@@ -39,7 +39,15 @@ Replace spaces with newlines `:%s/ /\r/g`
 
 Insert mode
 -----------
-`i` enters insert mode
+`i` enters insert mode at before current character position
+
+`A` enters insert mode at end of current line
+
+`I` enters insert mode at beginning (first non-whitespace) of current line
+
+`o` enters insert mode by opening (inserting) new line below
+
+`O` enters insert mode by opening (inserting) new line above
 
 ###Digraphs
 Digraph is two characters used to enter a single character, such as one not
@@ -69,6 +77,11 @@ Change (delete) in quotes `ci"`
 
 Change (delete) in parenthesis `ci(`
 
+Lower case line `guu`
+
+Lower case word `guw`
+
+Upper case line `gUU`
 
 
 Other
@@ -79,9 +92,11 @@ Close buffer `:bd`
 
 Move between splits `Ctrl+w Ctrl+w`
 
-Navigate to start/end of parents/braces `%`
+Navigate to start/end of parens/braces `%`
 
 Navigate to end of line `$`
+
+Navigate to end of file `G`
 
 Navigate to beginning of like `0`
 
@@ -93,6 +108,14 @@ Repeat last : command `@:`
 
 Repeat last normal mode command `.`
 
+Lookup man page `K`
+
+Delete character `x`
+
+Delete to end of line `d$`
+
+Delete to end of file `dG`
+
 Scripts
 =======
 
@@ -101,5 +124,3 @@ ANSI color escape sequences
 Script to highlight ANSI escape sequences as colors (useful for browsing logs
 with color):
 http://vim.sourceforge.net/scripts/script.php?script_id=302
-
-
