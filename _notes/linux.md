@@ -38,3 +38,20 @@ Serial Port
 ===========
 Usually need dialout group to access /dev/ttyX:
 sudo usermod -a -G dialout planteen
+
+Shared Libraries
+================
+Find a symbol in shared libraries:
+scanelf -l -s XRRGetCrtcInfo | grep XRRGetCrtcInfo
+
+chmod
+=====
+Remove execute permissions from files but add to directories
+chmod -R -x+X *
+-x removes execute for all
++X add execute for all
+
+md5sum
+======
+Recursively md5sum a folder:
+find ./dir -type f -print0 | xargs -0 md5sum > sums.md5
