@@ -55,3 +55,8 @@ md5sum
 ======
 Recursively md5sum a folder:
 find ./dir -type f -print0 | xargs -0 md5sum > sums.md5
+
+Shell buffering
+===============
+Force buffer flush after each line of output to stdout
+stdbuf -oL ./cmd > log
