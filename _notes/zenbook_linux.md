@@ -1,16 +1,10 @@
----
-layout: post
-title: Linux on ZenBook UX501
-date: 2017-02-10 (updated 2019-04-16)
-categories: Linux
----
+Linux on ZenBook UX501
+======================
 
 Ubuntu hangs on my ZenBook with the default configuration.
 I found a
 [page from Arch](https://wiki.archlinux.org/index.php/ASUS_Zenbook_Pro_UX501)
-that suggested some kernel boot parameters. It still hung. I considering
-installing Arch, but I wasn't sure I was ready for the commitment. So I tried
-Fedora 29 with the same parameters first. The live session was stable so I
+that suggested some kernel boot parameters. Ubuntu still hung. Fedora 29 boots with the parameters. The live session was stable so I
 installed to disk. The key is to edit the boot parameters (press e) before the
 Linux installer boots and append `i915.enable_execlists=0 acpi_osi=! acpi_osi="Windows 2009"`
 
