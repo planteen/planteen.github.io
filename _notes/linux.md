@@ -54,6 +54,9 @@ sudo dnf install openssh-server
 sudo systemctl start sshd.service
 ```
 
+Client key:
+chmod 400 id_ed25519
+
 Add existing user to existing group
 ===================================
 Usually need `dialout` group to access /dev/ttyX:
