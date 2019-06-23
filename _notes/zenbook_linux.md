@@ -17,11 +17,3 @@ GRUB_SAVEDEFAULT=true
 
 Now, rewrite the grub loder configuration
 `sudo grub2-mkconfig -o /boot/efi/EFI/fedora/grub.cfg`
-
-The only piece of hardware that doesn't seem to work is the built-in SD card
-reader:
-
-```
-$ lspci | grep -i alcor
-02:00.0 Unassigned class [ff00]: Alcor Micro Device 6621
-```
