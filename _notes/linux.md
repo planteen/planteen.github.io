@@ -54,6 +54,9 @@ sudo dnf install openssh-server
 sudo systemctl start sshd.service
 ```
 
+Client key:
+chmod 400 id_ed25519
+
 Add existing user to existing group
 ===================================
 Usually need `dialout` group to access /dev/ttyX:
@@ -101,11 +104,20 @@ stdbuf -oL ./cmd > log
 dd over network
 ===============
 To backup an existing Linux system without having to remove the drive, boot
-the source computer with a live Linux USB drive. Setup ssh access, then on
-machine with destination drive (or file), can execute:
+the source computer with a live Linux USB drive. Setup ssh access and then on
+machine with destination drive (or file), execute:
 
 ```bash
 ssh liveuser@192.168.0.108 dd if=/dev/nvme0n1 bs=8192 count=62513451 status=progress | dd of=/dev/nvme0n1
 ```
 
 (use `lsblk -b` to get exact size in bytes)
+
+NVIDIA drivers
+==============
+Fedora:
+```bash
+sudo dnf install fedora-workstation-repositories
+sudo dnf config-manager rpmfusion-nonfree-nvidia-driver --set-enabled
+sudo dnf install akmod-nvidia acpi
+```
